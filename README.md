@@ -1,12 +1,12 @@
-# Compiler
-Welcome to the public homepage for the private Compiler repository.
+# Lion Compiler
+Welcome to the public homepage for the private Lion Compiler repository.
 
 ## Overview
-The goal of this project is to apply compiler theory to the construction of a real compiler for a small but fully-functional language. Currently, only the code for the compiler backend has been added to the repository, however, my hope is to upload the compiler frontend code soon in order to have a fully working end-to-end compiler. In the future, I plan to use this codebase as a sandbox for further exploration of compiler concepts such as optimizations and static analysis as well as compiler toolchains such as LLVM.
+The goal of this project is to apply compiler theory to the construction of a real compiler for a small language called Lion. Currently, only the code for the compiler backend has been added to the repository, however, my hope is to upload the compiler frontend code soon in order to have a fully working end-to-end compiler. In the future, I plan to use this codebase as a sandbox for further exploration of compiler concepts such as optimizations and static analysis as well as compiler toolchains such as LLVM.
 
 This project was written in Java.
 
-<strong>Note that this is the public home page for the Compiler project, which is a private repository. In order to access the actual private repository and the project's source code, please log into this GitHub account (potentialEmployer77) using the login credentials provided at the top of my resume.</strong>
+<strong>Note that this is the public home page for the Lion Compiler project, which is a private repository. In order to access the actual private repository and the project's source code, please log into this GitHub account (potentialEmployer77) using the login credentials provided at the top of my resume.</strong>
 
 ## Compiler Backend Overview
 
@@ -31,8 +31,8 @@ To build, run `make`.
 
 #### Running
 
-To run, execute: 
-`java TigerBackEnd -f <path/to/file> -a <naive|local|global> -t[0-8] -s[0-8] -f[0-30] -d`
+To run, execute:
+`java LionBackEnd -f <path/to/file> -a <naive|local|global> -t[0-8] -s[0-8] -f[0-30] -d`
   1. -f <filename> specifies path to .ir file.
   2. -a <naive|local|global> specifies which allocator to use. 
     *Defaults to local.
