@@ -1,12 +1,12 @@
-# Lion Compiler
-Welcome to the public homepage for the private Lion Compiler repository.
+# Lion
+Welcome to the public homepage for the private Lion project repository.
 
 ## Overview
-The goal of this project is to apply compiler theory to the construction of a real compiler for a small language called Lion. Currently, only the code for the compiler backend has been added to the repository, however, my hope is to upload the compiler frontend code soon in order to have a fully working end-to-end compiler. In the future, I plan to use this codebase as a sandbox for further exploration of compiler concepts such as optimizations and static analysis as well as compiler toolchains such as LLVM.
+The goal of this project is to apply compiler theory to the construction of a compiler for a small language called Lion. Currently, only the code for the compiler backend has been added to the repository, however, my hope is to upload the compiler frontend code soon in order to have a fully working end-to-end compiler. In the future, I plan to use this codebase as a sandbox for further exploration of compiler concepts such as optimizations and static analysis as well as compiler toolchains such as LLVM.
 
 This project was written in Java.
 
-<strong>Note that this is the public home page for the Lion Compiler project, which is a private repository. In order to access the actual private repository and the project's source code, please log into this GitHub account (potentialEmployer77) using the login credentials provided at the top of my resume.</strong>
+<strong>Note that this is the public homepage for the Lion project, which is a private repository. In order to access the actual private repository and the project's source code, please log into this GitHub account (potentialEmployer77) using the login credentials provided at the top of my resume.</strong>
 
 ## Compiler Backend Overview
 
@@ -45,4 +45,4 @@ To run, execute:
   5. -f[0-30] : the number of MIPS floating point registers to be allocated and assigned to floating point-valued virtual register names (i.e., 0sum). 
     * The default is 30. 
     * Ignored when using naive allocator.
-  6. -d prints out debug information";
+  6. -d prints out debug information.
