@@ -212,6 +212,7 @@ Global:
          #reads : 5  #writes 3  #branches 4  #other 13
 
 4). test3.ir:
+
 Naive:
 5Stats -- #instructions : 36
          #reads : 4  #writes 3  #branches 4  #other 25
@@ -228,6 +229,7 @@ Global:
 397 bytes
 
 5). test5.ir:
+
 Naive:
 2Stats -- #instructions : 42
          #reads : 8  #writes 7  #branches 5  #other 22
@@ -243,9 +245,8 @@ Global:
          #reads : 2  #writes 1  #branches 5  #other 21
 417 bytes
 
-// BEGINNING OF OUR TESTS
-
 6). arrayTest1.ir:
+
 Naive:
 102Stats -- #instructions : 41
          #reads : 8  #writes 5  #branches 2  #other 26
@@ -262,6 +263,7 @@ Global:
 410 bytes
 
 7). floatArithmetic.ir:
+
 Naive:
 5Stats -- #instructions : 52
          #reads : 2  #writes 1  #branches 2  #other 47
