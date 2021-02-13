@@ -34,7 +34,7 @@ To build, run `make`.
 #### Running
 
 To run, execute:
-`java LionBackEnd -f <path/to/file> -a <naive|local|global> -t[0-8] -s[0-8] -f[0-30] -d`
+`java BackEnd -f <path/to/file> -a <naive|local|global> -t[0-8] -s[0-8] -f[0-30] -d`
   1. -f <filename> specifies path to .ir file.
   2. -a <naive|local|global> specifies which allocator to use. 
     *Defaults to local.
