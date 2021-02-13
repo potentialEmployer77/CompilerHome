@@ -1,6 +1,8 @@
 # Lion
 Welcome to the public homepage for the private Lion project repository.
 
+![OsMowSis_example](Documentation/GitHubImages/lion-resize25.png)
+
 ## Overview
 The goal of this project is to apply compiler theory to the construction of a compiler for a small language called Lion. Currently, only the code for the compiler backend has been added to the repository, however, my hope is to upload the compiler frontend code soon in order to have a fully working end-to-end compiler. In the future, I plan to use this codebase as a sandbox for further exploration of compiler concepts such as optimizations and static analysis as well as compiler toolchains such as LLVM.
 
