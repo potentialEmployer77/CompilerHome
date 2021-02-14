@@ -8,7 +8,7 @@ The goal of this project is to apply compiler theory to the construction of a co
 
 This project was written in Java.
 
-<strong>Note that this is the public homepage for the Lion project, which is a private repository. In order to access the actual private repository and the project's source code, please log into this GitHub account (potentialEmployer77) using the login credentials provided at the top of my resume.</strong>
+<strong>Note that this is the public homepage for the Lion project, which is a private repository. In order to access the actual private repository and the project's source code, please log into this GitHub account (potentialEmployer77) using the login credentials provided at the top of my resume, and navgiate to the [Lion repository](https://github.com/potentialEmployer77/Lion).</strong>
 
 ## Compiler Backend Overview
 
